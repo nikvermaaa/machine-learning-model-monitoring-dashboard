@@ -1,0 +1,27 @@
+# ── Virtual Environments ──
+venv/
+env/
+.env
+.venv
+
+# ── Python Cache ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+
+# ── IDE & System Files ──
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ── MLflow (Training Artifacts) ──
+# We ignore these because they are huge and only used during local training
+mlruns/
+mlflow.db
+
+# ── Ignored Data & Logs ──
+# (Add specific large datasets here if you don't want them in version control)
+# e.g., data/raw_adult.csv
